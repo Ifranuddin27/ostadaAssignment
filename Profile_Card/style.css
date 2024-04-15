@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sans-serif";
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.profile-box{
+    height: 600px;
+    width: 500px;
+    background: #ff574a;
+    text-align: center;
+    padding: 40px 90px;
+    color: #fff;
+    position: relative;
+    border-radius: 20px;
+}
+
+.profile-box .name{
+    margin-top: 20px;
+    font-family: Montserrat;
+}
+
+.profile-pic{
+    height: 100px;
+    width: auto;
+    border-radius: 50px;
+    background: #fff;
+    padding: 3px;
+}
+
+.designation{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size:20px ;
+}
+.description{
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+
+.contact-info h3{
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px #fff solid;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:50px;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact-info .email{
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact-info .mobile{
+    margin-top: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
